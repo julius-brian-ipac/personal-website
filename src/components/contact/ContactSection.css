@@ -1,0 +1,84 @@
+#contact-section {
+    background-color: #9f76b8;
+    border-top-color:  #d49ce5;
+    border-left-color: #d49ce5;
+    border-bottom-color: #725689;
+    border-right-color:  #725689;
+
+    margin-bottom: 50px;
+}
+
+#contact-content {
+    background-color: #eadedf;
+    border-top-color:  #725689;
+    border-left-color: #725689;
+    border-bottom-color: #d49ce5;
+    border-right-color:  #d49ce5;
+
+    margin: 0;
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact {
+    background-color: #9f76b8;
+    color: black;
+
+    width: auto;
+    height: auto;
+
+    border-style: solid;
+    border-color: #211d25;
+    border-width: 4px;
+    border-radius: 2px;
+
+    margin: 0;
+    padding: 15px;
+
+    font-size: 1.75rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact:hover {
+    color: #fcfbc9;
+}
+
+#linkedin:hover {
+    .contact-icon {
+        content:url('../../assets/icons/linkedin-icon-active.png');
+    }
+}
+#email:hover {
+    .contact-icon {
+        content:url('../../assets/icons/email-icon-active.png');
+    }
+}
+#phone:hover {
+    .contact-icon {
+        content:url('../../assets/icons/phone-icon-active.png');
+    }
+}
+#location:hover {
+    .contact-icon {
+        content:url('../../assets/icons/location-icon-active.png');
+    }
+}
+#resume:hover {
+    .contact-icon {
+        content:url('../../assets/icons/resume-icon-active.png');
+    }
+}
+
+.contact-icon {
+    height: 1.5em;
+    margin-right: 10px;
+}

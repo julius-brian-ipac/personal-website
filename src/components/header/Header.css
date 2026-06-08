@@ -1,0 +1,37 @@
+.header {
+    background-color: #211d25;
+    
+    width: 100vw;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+}
+
+.header-link {
+    color: #eadedf;
+    font-size: 15pt;
+    text-decoration: none;
+    
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+#home-link:hover {
+    color: #fcfbc9;
+}
+#about-link:hover {
+    color: #fa8971;
+}
+#skills-link:hover {
+    color: #b8cf61;
+}
+#projects-link:hover {
+    color: #5ac5ce;
+}
+#contact-link:hover {
+    color: #facafb;
+}

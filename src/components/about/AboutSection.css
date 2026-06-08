@@ -1,0 +1,60 @@
+#about-section {
+    background-color: #e55858;
+    border-top-color: #fa8971;
+    border-left-color: #fa8971;
+    border-bottom-color: #b2434d;
+    border-right-color: #b2434d;
+}
+
+#about-content {
+    background-color: #dedcd1;
+    border-top-color: #b2434d;
+    border-left-color: #b2434d;
+    border-bottom-color: #fa8971;
+    border-right-color: #fa8971;
+
+    margin: 0;
+    padding: 5%;
+
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about-text {
+    color: black;
+    font-size: 1.75rem;
+    line-height: 90%;
+    
+    flex-grow: 1;
+}
+
+#about-keywords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex-shrink: 1;
+
+    p {
+        background-color: #e55858;
+        color: #211d25;
+        font-family: 'GrapeSoda';
+        font-size: 1.25rem;
+
+        width: auto;
+        height: auto;
+
+        border-style: solid;
+        border-color: #211d25;
+        border-width: 4px;
+        border-radius: 2px;
+
+        margin: 0;
+        padding: 10px;
+    }
+}

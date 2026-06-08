@@ -1,0 +1,32 @@
+@font-face {
+    font-family: AromaVintage;
+    src: url('./assets/fonts/aroma-vintage-regular.ttf');
+}
+@font-face {
+    font-family: Daydream;
+    src: url('./assets/fonts/daydream-regular.otf');
+}
+@font-face {
+    font-family: GrapeSoda;
+    src: url('./assets/fonts/grape-soda-regular.ttf');
+}
+@font-face {
+    font-family: CutePixel;
+    src: url('./assets/fonts/cute-pixel-regular.ttf');
+}
+@font-face {
+    font-family: Monaco;
+    src: url('./assets/fonts/monaco-regular.ttf');
+}
+
+
+body {
+  background-color: #211d25;
+  color: #211d25;
+  font-family: 'Monaco';
+  margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

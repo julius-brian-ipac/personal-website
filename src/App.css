@@ -1,0 +1,66 @@
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+section {
+    width: auto;
+    height: auto;
+
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+
+    background-color: green;
+    border-top-color:  red;
+    border-left-color: red;
+    border-bottom-color: blue;
+    border-right-color:  blue;
+
+    margin-left:  min(5em, 5%);
+    margin-right: min(5em, 5%);
+    padding: 15px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    scroll-margin-top: 5vh;
+}
+
+.section-header {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section-icon {
+    height: 2rem;
+    margin-right: 5px;
+}
+
+.section-title {
+    font-family: 'Daydream';
+    font-size: 1.5rem;
+
+    margin: 0;
+    padding: 10px;
+}
+
+.section-content {
+    background-color: lightgreen;
+
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+
+    border-top-color: blue;
+    border-left-color: blue;
+    border-bottom-color: red;
+    border-right-color: red;
+}
